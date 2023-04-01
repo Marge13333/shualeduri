@@ -172,7 +172,7 @@ input[type="checkbox"]{
     overflow: hidden;
     max-width: 1225px;
     width: 100%;
-    background-image: url(assets/images/Rectangle\ 400.png);
+    background-image: url(../images/Rectangle\ 400.png);
     height: 750px;
     border-radius: 24px;
     background-size: cover;
@@ -623,7 +623,7 @@ footer{
 .find-house{
     max-width: 1225px;
     width: 100%;
-    background-image: url(assets/images/Rectangle\ 400.png);
+    background-image: url(../images/Rectangle\ 400.png);
     height: 435px;
     background-position: center;
     border-radius: 24px;
