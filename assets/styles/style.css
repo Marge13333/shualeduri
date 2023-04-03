@@ -92,7 +92,6 @@ header{
     padding-top: 40px;
 }
 .intro-wrraper{
-    
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -116,7 +115,12 @@ header{
     display: flex;
     justify-content:space-between;
     padding: 15px 13px;
+    transition: all.3s;
     cursor: pointer;
+}
+.all-Kenya:hover{
+    border: 1px solid #CFEAD6;
+    box-shadow: 20px 20px 60px #29B24E;
 }
 .location-text{
     font-size: 16px;
@@ -131,12 +135,15 @@ header{
     font-family:Poppins-Regular;
 }
 .Property{
+    flex-wrap: wrap;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .Price-range{
+    flex-wrap: wrap;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -164,6 +171,7 @@ input[type="checkbox"]{
     cursor: pointer;
 }
 .form-row{
+    flex-wrap: wrap;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -192,8 +200,8 @@ input[type="checkbox"]{
 .find-house-title{
     max-width: 750px;
     opacity: 0.8;
-width: 100%;
-font-size: 48px;
+    width: 100%;
+    font-size: 48px;
     color: #000000; 
     font-family:Poppins-SemiBold;
 }
@@ -213,6 +221,7 @@ font-size: 48px;
     outline: none;
     border: 1px solid transparent;
     align-items: center;
+    flex-wrap: wrap;
     display: flex;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(124, 124, 124, 0.27);
@@ -237,7 +246,7 @@ font-size: 48px;
 }
 .intro-search-img{
 padding-right: 20px;
-cursor: text;
+cursor: pointer;
 }
 /*----------section intro-----------*/
 
@@ -245,9 +254,12 @@ cursor: text;
     padding-top: 30px;
     overflow: hidden;
 }
+.Trending-ads-text-cont{
+    margin: auto;
+    max-width: 1640px;
+    width: 100%;
+}
 .Trending-ads-text{
-    padding-left: 140px;
-    padding-bottom: 20px;
     font-size: 18px;
     color: #000000;
     font-family:Poppins-Medium;
@@ -597,7 +609,7 @@ footer{
     /*---------header mobile----------*/
     /*----------section intro mobile-----------*/
     .intro{
-        min-width: 335px;
+        min-width: 270px;
         width: 100%;
         width: 100%;
         padding-top: 30px;

@@ -188,6 +188,7 @@ header{
 .ads-middle{
     margin-top: 16px;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     align-items: center;
 }
@@ -205,12 +206,14 @@ header{
     margin-right: 100px;
 }
 .mini-info1{
+    flex-wrap:wrap ;
     display: flex;
     flex-direction: column;
     gap:16px ;
 }
 .Property-address,.Condition,.Condition2{
     display: flex;
+    flex-wrap: wrap;
     gap: 4px;
     flex-direction: column;
     text-align: start;
@@ -228,22 +231,26 @@ header{
     font-family:Poppins-Medium;
 }
 .Facilities{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 .mini-info2{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 .Estate-name,.Furnishing{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: start;
     gap: 4px;
 }
 .intro-price{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     
@@ -262,6 +269,7 @@ header{
     margin-left: 54px;
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -279,6 +287,7 @@ header{
 .send-massgae-button:hover{
     background-color: transparent;
     color: #29B24E;
+    box-shadow: 20px 20px 60px #29B24E;
 }
 .Call-button{
     padding: 13px 26px;
@@ -294,6 +303,7 @@ header{
 .Call-button:hover{
     background-color: transparent;
     color: #29B24E;
+    box-shadow: 20px 20px 60px #29B24E;
 }
 /*----------section intro-----------*/
 .trending-ads{
@@ -417,6 +427,7 @@ header{
 }
 .ads-vip-text{
     margin-top: -210px;
+    cursor: pointer;
 }
 .fav-svg:hover{
 background-color: transparent;
@@ -651,6 +662,7 @@ footer{overflow: hidden;
         gap: 40px;
         flex-direction: column;
     }
+
     .price-numb{
         font-size: 24px;
     }
